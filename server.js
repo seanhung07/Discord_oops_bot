@@ -55,7 +55,7 @@ client.on("messageCreate", async function(message) {
       message.channel.send(`
       Supported Command
       **?help/?h** Display help menu
-      **?w/?w {city}** Show current weather
+      **?w/?w {city/country}** Show current weather
       **?s** show current shuttle location
       `)
   }
